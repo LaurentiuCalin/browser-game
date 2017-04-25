@@ -1,0 +1,13 @@
+{
+  "images": ["heroGunShotgun.png"],
+  "frames": {
+    "width":105,
+    "height":108,
+    "regX":0,
+    "regY":0
+  },
+  "animations":{
+    "right":[0],
+    "left":[1]
+  }
+}

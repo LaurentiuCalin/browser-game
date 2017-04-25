@@ -1,0 +1,14 @@
+{
+  "framerate":8,
+  "images": ["zombie2.png"],
+  "frames": {
+    "width":128,
+    "height":130,
+    "regX":0,
+    "regY":0
+  },
+  "animations":{
+    "right":[0,3],
+    "left":[4,7]
+  }
+}

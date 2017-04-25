@@ -1,0 +1,13 @@
+{
+  "images": ["ghosts.png"],
+  "frames": {
+    "width":120,
+    "height":120,
+    "regX":0,
+    "regY":0
+  },
+  "animations":{
+    "right":[0],
+    "left":[1]
+  }
+}

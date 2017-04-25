@@ -1,0 +1,106 @@
+html,body{margin:0;padding: 0; background-color: black;}
+#canvas{background:"red"; display: none;}1
+#canvasLevel2{display: block;}
+#canvasLevel3{display: block;}
+#introVideo{height: 85vh;}
+#firstDialog{height: 85vh;display: none;}
+#secondDialog{height: 85vh;display: none;}
+#thirdDialog{height: 85vh;display: none;}
+#fourthDialog{height: 85vh; display: none;}
+#keyControls{width: 1200px; height: 100px; display: block; background-image: url('../controls.png');}
+#winScreen{
+    width: 1200px;
+    height: 480px;
+    color: white;
+    
+}
+#inventory{
+	height: 200px; 
+	width: 500px; 
+	background-color: #339933; 
+	position: fixed; 
+	top:100px; 
+	left: 350px; 
+	padding: 10px;
+	display: none;
+	-webkit-border-radius: 50px;
+	-webkit-border-top-left-radius: 0;
+	-moz-border-radius: 50px;
+	-moz-border-radius-topleft: 0;
+	border-radius: 50px;
+	border-top-left-radius: 0;
+	border-width: 3px;  
+  	border-color: #335500;
+  	border-style: solid;
+  	-moz-box-shadow:    inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow:         inset 0 0 10px #000000;
+}
+#shop{
+	height: 200px; 
+	width: 500px; 
+	background-image: url("shopBg.png"); 
+	position: fixed; 
+	top:100px; 
+	left: 350px; 
+	padding: 10px;
+	display: none;
+	-webkit-border-radius: 50px;
+	-webkit-border-top-left-radius: 0;
+	-moz-border-radius: 50px;
+	-moz-border-radius-topleft: 0;
+	border-radius: 50px;
+	border-top-left-radius: 0;
+	border-width: 3px;  
+  	border-color: #335500;
+  	border-style: solid;
+  	-moz-box-shadow:    inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow:         inset 0 0 10px #000000;
+}
+button{
+	display: none;
+	position: fixed;
+}
+#buyAmmo{
+	top: 145px;
+	left: 500px;
+}
+#buyLife{
+	top: 220px;
+	left: 500px;
+}
+#buyRifle{
+	top: 220px;
+	left: 750px;
+}
+#buyShotgun{
+	top: 145px;
+	left: 750px;
+}	
+#shopMessage{
+	display: block;
+	top:250px;
+	position:absolute; 
+	left:600px; 
+	color:white;
+	background-color: red;
+}
+#pistolIMG{
+	display: none;
+	position: absolute;
+	top: 180px;
+	left: 450px;
+}
+#rifleIMG{
+	display: none;
+	position: absolute;
+	top: 180px;
+	left: 500px;
+}
+#shotgunIMG{
+	display: none;
+	position: absolute;
+	top: 180px;
+	left: 550px;
+}

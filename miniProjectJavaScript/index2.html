@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GridMan</title>
+    <script src="assets/createjs-2015.05.21.min.js"></script>
+    <script src="assets/jquery-1.11.3.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="preload()">
+
+
+<video id="thirdDialog" onClick="removeThirdDialog()">
+  <source src="img/Dialog3.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+ 
+    <div id="inventory">
+
+</div>
+
+<img id="pistolIMG"src="img/sprites/pistol.png">
+<img id="rifleIMG"src="img/sprites/rifle.png">
+<img id="shotgunIMG"src="img/sprites/shotgun.png">
+
+<div id="shop">
+  
+</div>
+    
+    <canvas id="canvasLevel2" width="1200" height="480"></canvas>
+
+    <div id="keyControls"></div>
+<button id="buyAmmo" onclick="buyAmmo()">Buy</button>
+<button id="buyLife" onclick="buyLife()">Buy</button> 
+<button id="buyShotgun" onclick="buyShotgun()">Buy</button> 
+<button id="buyRifle" onclick="buyRifle()">Buy</button>
+
+<span id="shopMessage"></span> 
+    
+<script src="tiles2.js"></script>
+
+</body>
+</html>

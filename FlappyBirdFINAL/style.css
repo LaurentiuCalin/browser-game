@@ -1,0 +1,18 @@
+body, html {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    height: 100%;
+    background-color: black;
+}
+canvas {
+    margin-bottom: -4px;
+    max-height: 100%;
+    max-width: 100%;
+}
+iframe {
+    position: fixed;
+    top: 0px;
+    left: 50%;
+    margin-left: -76px;
+}

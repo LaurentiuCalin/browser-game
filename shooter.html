@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="assets/createjs-2015.05.21.min.js"></script>
+    <script src="assets/jquery-1.11.3.min.js"></script>
+    <style>
+        h1{
+            color:white;
+        }
+        html{
+            background-color: black;
+        }
+        #myGame {
+            background-image: url('background.jpg');
+        }
+        #myGame.bg {
+           background-image: url('level1bg.png');
+        }
+        #myGame.lost{
+            background-image: url('level1Lost.png');
+        }
+        #keyControls{width: 1200px; height: 100px; display: block; background-image: url('controlsShooter.png');}
+    </style>
+</head>
+<body onload="init()">
+
+
+<h1>Score: <span></span>/10</h1>
+
+<canvas id="myGame" width="998" class="bg" height="539"></canvas>
+<div id="keyControls"></div>
+<script src="shooter.js"></script>
+</body>
+</html>

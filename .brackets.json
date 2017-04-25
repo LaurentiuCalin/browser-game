@@ -1,0 +1,15 @@
+{
+    "jscodehints.detectedExclusions": [
+        "/Applications/XAMPP/xamppfiles/htdocs/Fighting/miniProjectJavaScript/assets/createjs-2015.05.21.min.js",
+        "D:/XAMPP/htdocs/Fighting/miniProjectJavaScript/assets/createjs-2015.05.21.min.js",
+        "D:/XAMPP/htdocs/Fighting/FightingLevel3/assets/createjs-2015.05.21.min.js",
+        "D:/XAMPP/htdocs/Fighting/shooter.js",
+        "D:/XAMPP/htdocs/Fighting/FightingLevel2/assets/createjs-2015.05.21.min.js",
+        "/Applications/XAMPP/xamppfiles/htdocs/FightingV2/miniProjectJavaScript/tiles3.js",
+        "/Applications/XAMPP/xamppfiles/htdocs/FightingV2/miniProjectJavaScript/tiles2.js",
+        "/Applications/XAMPP/xamppfiles/htdocs/FightingV2/miniProjectJavaScript/tiles.js",
+        "/Applications/XAMPP/xamppfiles/htdocs/FightingV2/miniProjectJavaScript/assets/createjs-2015.05.21.min.js",
+        "/Applications/XAMPP/xamppfiles/htdocs/FightingV2/FlappyBirdFINAL/main.js",
+        "D:/XAMPP/htdocs/FightingV2/miniProjectJavaScript/tiles3.js"
+    ]
+}

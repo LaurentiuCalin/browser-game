@@ -1,0 +1,15 @@
+{
+  "framerate": 8,
+  "images": ["omustean.png"],
+  "frames": {"width":30, "height":41, "regX":0, "regY":0},
+  "animations": {
+    "up":[0,2],
+    "right":[3,5],
+    "down":[6,8],
+    "left":[9,11],
+    "standUp":[1],
+    "standDown":[7],
+    "standRight":[4],
+    "standLeft":[10]
+  }
+}
